@@ -2,6 +2,7 @@
 The final output contains 2 fields,
 - segment
 - product_count */
+
 SELECT
 segment,
 COUNT(DISTINCT(product_code)) AS product_count
